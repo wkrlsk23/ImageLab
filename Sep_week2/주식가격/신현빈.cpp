@@ -23,14 +23,14 @@ int main()
 vector<int> solution(int n, long long k)
 {
 	vector<int> answer;
-	// ÀÚ¸®¼ö º¤ÅÍ
+	// ìë¦¬ìˆ˜ ë²¡í„°
 	vector<int> number;
 	//int* arr = new int[n];
 
 	long long fac = 1;
 	int value;
 
-	// ÀÚ¸´¼ö ¹è¿­¿¡ ¼ıÀÚ ´ëÀÔ
+	// ìë¦¿ìˆ˜ ë°°ì—´ì— ìˆ«ì ëŒ€ì…
 	for (int i = 1; i <= n; i++)
 	{
 		number.push_back(i);
